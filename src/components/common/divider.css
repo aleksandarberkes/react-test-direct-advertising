@@ -1,0 +1,12 @@
+.divider {
+  display: flex;
+  align-self: center;
+  opacity: var(--opacity-light);
+  border: var(--border-width) solid var(--color-dark-gray);
+  width: 60%;
+}
+.divider.divider--footer {
+  width: 100%;
+  margin: var(--space-zero);
+  border-color: var(--color-white);
+}

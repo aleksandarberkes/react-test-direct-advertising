@@ -1,0 +1,25 @@
+.download__button {
+  text-align: center;
+  vertical-align: middle;
+  padding: var(--space-s) var(--space-xs);
+  border-radius: var(--border-radius-l);
+  border-width: var(--border-width-zero);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-m);
+  font-size: var(--font-size-m);
+  color: var(--color-white);
+  line-height: var(--line-height-m);
+  letter-spacing: var(--letter-spacing-zero);
+  background-color: var(--color-main-variant);
+  width: 18rem;
+}
+.download__button:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .download__button {
+    width: 12rem;
+    font-size: var(--font-size-xs);
+  }
+}

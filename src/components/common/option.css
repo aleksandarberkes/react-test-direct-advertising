@@ -1,0 +1,27 @@
+.option {
+  border-bottom: var(--border-width) solid transparent;
+}
+.option.option--active {
+  border-bottom-color: var(--color-accent);
+}
+
+.option__text--header {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-s);
+  font-size: var(--font-size-s);
+  line-height: var(--line-height-m);
+  letter-spacing: var(--letter-spacing-zero);
+  color: var(--color-white);
+}
+.option__text--footer {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-l);
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-m);
+  letter-spacing: var(--letter-spacing-s);
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+.option:hover {
+  cursor: pointer;
+}

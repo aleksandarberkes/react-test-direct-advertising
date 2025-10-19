@@ -1,0 +1,23 @@
+.cta_textInput {
+  padding-left: var(--space-l);
+  box-sizing: border-box;
+  border-radius: var(--border-radius-l);
+  border: var(--border-width) solid var(--color-gray);
+  vertical-align: middle;
+  color: var(--color-paragraph);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-m);
+  font-size: var(--font-size-l);
+  line-height: var(--line-height-m);
+  letter-spacing: var(--letter-spacing-zero);
+  width: 23rem;
+  height: 3.75rem;
+}
+
+@media (max-width: 550px) {
+  .cta_textInput {
+    width: 18rem;
+    height: 3rem;
+    font-size: var(--font-size-s);
+  }
+}

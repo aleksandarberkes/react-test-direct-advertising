@@ -1,0 +1,27 @@
+.cta_signup {
+  text-align: center;
+  vertical-align: middle;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-m);
+  font-size: var(--font-size-l);
+  line-height: var(--line-height-m);
+  letter-spacing: var(--letter-spacing-zero);
+  color: var(--color-white);
+  padding: var(--space-zero);
+  border-radius: var(--border-radius-l);
+  border: var(--border-width-zero);
+  background-color: var(--color-accent-variant);
+  width: 10.5rem;
+  height: 3.75rem;
+}
+.cta_signup:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 550px) {
+  .cta_signup {
+    width: 8rem;
+    height: 3rem;
+    font-size: var(--font-size-s);
+  }
+}
